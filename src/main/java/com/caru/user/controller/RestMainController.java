@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class RestMainController {
-	@Value("${leekyoungil.said.first}")
+	@Value("${leekyoungil.said.first:default}")
 	private String first;
-	@Value("${leekyoungil.said.second}")
+	@Value("${leekyoungil.said.second:default}")
 	private String second;
 
 	@GetMapping("/config")
