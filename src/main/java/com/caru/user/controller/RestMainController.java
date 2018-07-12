@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -20,9 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2018. 07. 10.
  */
 @RestController
-@RequestMapping("/employee")
 public class RestMainController {
-
 	private static final Logger LOGGER = LoggerFactory.getLogger(RestMainController.class);
 
 	@Autowired
