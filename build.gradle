@@ -35,6 +35,7 @@ dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
     compile('org.springframework.cloud:spring-cloud-starter-openfeign')
     compile('org.springframework.cloud:spring-cloud-starter-sleuth')
+    compile('org.springframework.cloud:spring-cloud-starter-zipkin')
     compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
